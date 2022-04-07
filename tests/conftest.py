@@ -30,4 +30,4 @@ def setup(request, browser, url):
     driver.maximize_window()
     request.cls.driver = driver
     yield
-    # driver.close()
+    driver.close()
